@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/,io/my-great-repo/precache-manifest.4d4762ead73391c6cd30a7d6f9c0c920.js"
+  "/my-great-repo/precache-manifest.bf9953fcb303cb0c0a8b0f7775b12f7a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/,io/my-great-repo/index.html", {
+workbox.routing.registerNavigationRoute("/my-great-repo/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
